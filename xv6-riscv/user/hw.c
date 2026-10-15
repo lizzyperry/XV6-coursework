@@ -3,7 +3,7 @@
 int main(int argc, char *argv[]) {
   // Insert code here.
   // You can use printf as normal.
-  printf("hello world\n");
+  printf("Hello, World!\n");
   // Terminate the process.
   exit(0);
 };
