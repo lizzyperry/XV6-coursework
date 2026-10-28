@@ -151,6 +151,7 @@ UPROGS=\
 	$U/_uptime\
 	$U/_year\
 	$U/_run_command\
+        $U/_pingpong0\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
